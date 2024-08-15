@@ -8,7 +8,7 @@ const tableStyle = {
 };
 
 const headerStyle = {
-  backgroundColor: '#0044cc', // Dark Blue background
+  backgroundColor: '#2A449C', // Dark Blue background
   color: '#ffffff',           // White text
   textAlign: 'left',          // Left-align text in headers
   padding: '12px',           // Add padding for better spacing

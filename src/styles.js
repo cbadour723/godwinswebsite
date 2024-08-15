@@ -1,10 +1,12 @@
 export const colors = {
-    primary: '#0044cc',      // Dark Blue
-    secondary: '#009688',    // Teal
-    accent: '#ff5722',       // Orange
-    text: '#333333',         // Dark Gray
-    background: '#f4f4f4',   // Light Gray
-    border: '#e0e0e0',       // Light Gray for borders
+    primary: '#27419C',       // Marian Blue
+    primaryDark: '#2A449C',   // Marian Blue 2
+    secondary: '#E5E9F2',     // Alice Blue
+    accent: '#27419A',        // Marian Blue 3
+    white: '#FFFFFF',         // White
+    text: '#333333',          // Dark Gray for text
+    background: '#F4F4F4',    // Light Gray background
+    border: '#E0E0E0',        // Light Gray for borders
 };
 
 export const appStyle = {
@@ -26,7 +28,7 @@ export const headerStyle = {
 };
 
 export const footerStyle = {
-    backgroundColor: colors.secondary,
+    backgroundColor: colors.primary,
     color: '#ffffff', // White text for better contrast
     padding: '20px',
     textAlign: 'center',
@@ -49,3 +51,12 @@ export const imageStyle = {
     borderRadius: '8px',
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Soft shadow for depth
 };
+// src/styles.js
+export const logoStyle = {
+    width: '50px',  // Set the width of the logo
+    height: '50px', // Set the height of the logo
+    borderRadius: '50%', // Optional: Make the image round
+    marginRight: '15px', // Add space between the image and text
+    verticalAlign: 'middle', // Align the image vertically with the text
+};
+
