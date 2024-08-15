@@ -11,7 +11,7 @@ import wine from './assets/wine.jpg';
 import medicine from './assets/medicine.jpg';
 import dog from './assets/dog.jpg';
 
-import { appStyle, headerStyle, footerStyle } from './styles';
+import { headerStyle, footerStyle } from './styles';
 
 const App = () => {
   return (

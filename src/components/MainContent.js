@@ -4,7 +4,7 @@ import livingroom from '../assets/living room.jpg';
 import bathroom from '../assets/bathroom.jpg';
 import hallway from '../assets/hallway.jpg';
 import washer from '../assets/washer.jpg';
-import bedroom from '../assets/bedroom.jpg';
+
 
 const MainContent = () => {
   return (
