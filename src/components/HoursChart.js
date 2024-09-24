@@ -29,13 +29,13 @@ const rowStyle = {
 
 const HoursTable = () => {
   const hoursData = [
-    { day: 'Monday', open: '9:00 AM', close: '6:00 PM' },
-    { day: 'Tuesday', open: '9:00 AM', close: '6:00 PM' },
-    { day: 'Wednesday', open: '9:00 AM', close: '6:00 PM' },
-    { day: 'Thursday', open: '9:00 AM', close: '6:00 PM' },
-    { day: 'Friday', open: '9:00 AM', close: '8:00 PM' },
-    { day: 'Saturday', open: '10:00 AM', close: '8:00 PM' },
-    { day: 'Sunday', open: '10:00 AM', close: '4:00 PM' },
+    { day: 'Monday', open: '8:00 AM', close: '7:00 PM' },
+    { day: 'Tuesday', open: '8:00 AM', close: '7:00 PM' },
+    { day: 'Wednesday', open: '8:00 AM', close: '7:00 PM' },
+    { day: 'Thursday', open: '8:00 AM', close: '7:00 PM' },
+    { day: 'Friday', open: '8:00 AM', close: '8:00 PM' },
+    { day: 'Saturday', open: '8:00 AM', close: '8:00 PM' },
+    { day: 'Sunday', open: '8:00 AM', close: '7:00 PM' },
   ];
 
   return (
